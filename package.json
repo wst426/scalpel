@@ -1,0 +1,23 @@
+{
+  "name": "scalpel",
+  "version": "0.1.0",
+  "description": "A tool for code visualization",
+  "keywords": [
+    "code visualization"
+  ],
+  "author": "wst426 <wangst0426@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "electron ./dist/main.js",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "electron": "^23.1.0",
+    "esbuild": "^0.17.8"
+  },
+  "dependencies": {
+    "@types/node": "^18.14.0",
+    "typescript": "^4.9.5"
+  }
+}

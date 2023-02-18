@@ -1,0 +1,16 @@
+{
+  "include": [
+    "main",
+    "preload",
+    "renderer",
+    "types"
+  ],
+  "compilerOptions": {
+    "target": "ESNext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
