@@ -13,11 +13,13 @@
     "check": "tsc --noEmit"
   },
   "devDependencies": {
+    "@types/d3": "^7.4.0",
     "electron": "^23.1.0",
     "esbuild": "^0.17.8"
   },
   "dependencies": {
     "@types/node": "^18.14.0",
+    "d3": "^7.8.2",
     "typescript": "^4.9.5"
   }
 }
